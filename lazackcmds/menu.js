@@ -8,7 +8,7 @@ const readdir = promisify(fs.readdir);
 
 let handler = async (m, { conn }) => {
   // Media resources
-  const menuThumbnail = 'https://i.imgur.com/GomcuUg.jpeg';
+  const menuThumbnail = 'https://files.catbox.moe/ia346o.jpeg';
   const audioUrl = 'https://github.com/SilvaTechB/silva-md-bot/raw/main/media/Menu.mp3';
 
   // Dynamic command loader
